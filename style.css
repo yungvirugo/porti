@@ -198,3 +198,13 @@ a{
     display: inline-block; 
     vertical-align: middle; 
 }
+
+
+
+    @media (max-width: 768px) {
+        div {
+          width: 100%;
+          font-size: 1.5em;
+        }
+      }
+
