@@ -208,43 +208,43 @@ img{
 @media screen and (max-width: 768px) {
 
     html{
-        width: 385px;
+        width: 768px;
     }
 
     body{
-        width: 385px;
+        width: 768px;
         max-height: 829px;
     }
     
     .base{
         display: block;
         margin: 0;
-        width: 385px;
-        max-height: 824px;
+        width: 768px;
+        height: 1124px;
     }
 
     .principal{
-        width: 385px;
+        width: 768px;
         height: 140px;
         margin-top: -129px;
     }
 
     .info{
-        width: 340px;
+        width: 768px;
         height: auto;
-        margin-top: 140px;
+        margin-top: 250px;
     }
 
     .conteudo{
-        margin: 0;
+        margin-left: 10px;
         margin-top: 1%;
-        width: 70%;
-        height: 110px;
+        width: 600px;
+        height: 280px;
     }
 
     .sites{
         width: 100%;
-        height: 20px;
+        height: 80px;
 
         top: 50%;
         left: 50%;
@@ -254,7 +254,7 @@ img{
 
     .games{
         width: 100%;
-        height: 20px;
+        height: 80px;
 
         top: 50%;
         left: 50%;
@@ -267,27 +267,28 @@ img{
         margin-left: 0;
         font-size: 43px;
         width: 385px;
+        color: #000;
     }
 
     .prof{
         margin-left: 0;
-        margin-top: -28px;
-        font-size: 16px;
+        margin-top: -38px;
+        font-size: 26px;
         width: 385px;
     }
 
     .desc{
         margin-left: 0;
         width: 385px;
-        font-size: 12px;
+        font-size: 22px;
     }
 
     .redes{
-        height: 50px;
+        height: 100px;
         align-items: center;
-        margin-top: -260px;
-        margin-left: 115px;
-        width: 385px;
+        margin-top: -350px;
+        margin-left: 505px;
+        width: 185px;
     }
 
     img{
@@ -297,15 +298,15 @@ img{
     .site{
         top: 0%;
         left: 50%;
-        font-size: 22px;
-        transform: translate(95px, -22px);
+        font-size: 52px;
+        transform: translate(235px, -35px);
     }
     
     .game{
         top: 0%;
         left: 50%;
-        font-size: 22px;
-        transform: translate(85px, -20px);
+        font-size: 52px;
+        transform: translate(215px, -35px);
     }
 
 }
