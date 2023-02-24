@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding: 0%;
     display: flex;
+    background-image: linear-gradient(45deg, #424242, #424242, #616161, #757575, #9E9E9E);
 }
 
     /* BaseDiv */
@@ -29,7 +30,7 @@ body{
     /* InfolDiv */
 
 .info{
-    width: 895px;
+    width: auto;
     height: 800px;
 
     background: transparent;
